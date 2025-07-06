@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Tutor Chatbot</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      background: linear-gradient(to right, #667eea, #764ba2);
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    textarea {
+      width: 100%;
+      max-width: 800px;
+      min-height: 100px;
+      padding: 15px;
+      border-radius: 10px;
+      border: none;
+      font-size: 1em;
+      resize: vertical;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      box-sizing: border-box;
+      transition: box-shadow 0.3s ease;
+    }
+
+    textarea:focus {
+      outline: none;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+    }
+
+    button {
+      background: linear-gradient(to right, #0072ff, #00c6ff);
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      padding: 15px 30px;
+      font-size: 1.1em;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: transform 0.2s ease, background 0.3s ease;
+    }
+
+    button:hover {
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      transform: scale(1.05);
+    }
+
+    h2 {
+      margin-top: 40px;
+      font-size: 1.8em;
+      text-align: center;
+    }
+
+    #answer {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 800px;
+      font-size: 1.2em;
+      text-align: left;
+      white-space: pre-wrap;
+      box-sizing: border-box;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.5s ease;
+    }
+
+    #answer.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    #video {
+      margin-top: 30px;
+      width: 100%;
+      max-width: 800px;
+      aspect-ratio: 16 / 9;
+      opacity: 0;
+      transform: scale(0.95);
+      transition: all 0.5s ease;
+    }
+
+    #video.show {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      font-size: 0.9em;
+      background: rgba(0, 0, 0, 0.1);
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      width: 100%;
+      text-align: center;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <h1>📚 AI Tutor Chatbot</h1>
+  <textarea id="question" placeholder="Ask me anything about programming, DSA, AI..."></textarea><br>
+  <button onclick="askQuestion()">Ask</button>
+  <h2>📝 Answer:</h2>
+  <div id="answer"></div>
+  <h2>🎥 Video:</h2>
+  <div id="video"></div>
+
+  <footer>© 2025 All rights reserved. Created by Ritik</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
