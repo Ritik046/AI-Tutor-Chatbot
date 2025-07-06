@@ -63,9 +63,9 @@ RAPIDAPI_KEY=your_rapidapi_key_here
 
 node index.js
 Backend should run at http://localhost:3000.
----
 
-## 📝 How it Works
+
+📝 How it Works
 
 ✅ Loads .txt files from /data as custom context (RAG).
 ✅ Uses OpenRouter’s LLM to generate contextual answers.
@@ -73,7 +73,7 @@ Backend should run at http://localhost:3000.
 ✅ The frontend shows answers with typewriter animation, glowing buttons, floating title, and smooth transitions
 
 
-## 📌 Customize
+📌 Customize
 
 ➕ Add more .txt files to /data to expand your knowledge base.
 🎨 Tweak styles in index.html for colors, fonts, or more animations.
