@@ -63,3 +63,19 @@ RAPIDAPI_KEY=your_rapidapi_key_here
 
 node index.js
 Backend should run at http://localhost:3000.
+
+## 📝 How it Works
+
+✅ Loads .txt files from /data as custom context (RAG).
+✅ Uses OpenRouter’s LLM to generate contextual answers.
+✅ Fetches YouTube video using RapidAPI & embeds it.
+✅ The frontend shows answers with typewriter animation, glowing buttons, floating title, and smooth transitions
+
+
+## 📌 Customize
+
+➕ Add more .txt files to /data to expand your knowledge base.
+🎨 Tweak styles in index.html for colors, fonts, or more animations.
+⚙️ Replace RapidAPI with another provider if needed.
+
+
