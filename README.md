@@ -118,3 +118,5 @@ All rights reserved.
 This project is open source — fork it, remix it, and build your own custom AI tutor!
 
 **✨ Happy Learning & Coding! 🚀**
+
+![Image_Alt](https://github.com/Ritik046/AI-Tutor-Chatbot/blob/55295b629e7e85b9fdb098e8fc05c64a03e04a05/Ai1.png)
