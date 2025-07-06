@@ -63,6 +63,7 @@ RAPIDAPI_KEY=your_rapidapi_key_here
 
 node index.js
 Backend should run at http://localhost:3000.
+---
 
 ## 📝 How it Works
 
