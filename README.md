@@ -120,3 +120,7 @@ This project is open source — fork it, remix it, and build your own custom AI 
 **✨ Happy Learning & Coding! 🚀**
 
 ![Image_Alt](https://github.com/Ritik046/AI-Tutor-Chatbot/blob/55295b629e7e85b9fdb098e8fc05c64a03e04a05/Ai1.png)
+![Image_Alt](https://github.com/Ritik046/AI-Tutor-Chatbot/blob/3520d7f62c2ec11742e17886bc146afff7d25152/Ai2.png)
+![Image_Alt](https://github.com/Ritik046/AI-Tutor-Chatbot/blob/3520d7f62c2ec11742e17886bc146afff7d25152/Ai3.png)
+![Image_Alt](https://github.com/Ritik046/AI-Tutor-Chatbot/blob/3520d7f62c2ec11742e17886bc146afff7d25152/Ai4.png)
+![Image_Alt](https://github.com/Ritik046/AI-Tutor-Chatbot/blob/3520d7f62c2ec11742e17886bc146afff7d25152/A6i.png)
